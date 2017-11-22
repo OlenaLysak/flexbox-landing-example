@@ -228,7 +228,6 @@ td {
 }
 
 footer {
-  /*  height: 330px;*/
     background: #F1F1F1;
     padding-top: 39px;
     font-size: 11px;
@@ -246,7 +245,6 @@ footer {
 }
 .footer-links > div > div {
     margin-bottom: 18px;
-    //justify-content: flex-start;
 }
 .footer-links > div > div.header {
     font-size: 15px;
