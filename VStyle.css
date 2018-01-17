@@ -277,6 +277,7 @@ footer > .wrapper {
 }
 .contact-and-else {
     align-self: flex-end;
+    flex-wrap: wrap;
 }
 .contact-and-else > div {
     margin: 14px;
