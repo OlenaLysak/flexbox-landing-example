@@ -26,7 +26,7 @@ header {
     content: "";
 }
 .bottom-ribbon {
-    width: 1610px;
+    width: 100%;
 }
 .left-bar {
     align-items: center;
@@ -68,6 +68,10 @@ header {
     height: 100%;
     align-items: center;
 }
+.navigation {
+    flex: 1;
+    margin-right: 312px;
+}
 .navigation > div {
     color: white;
     height: 100%;
@@ -79,12 +83,16 @@ header {
     font-size: 22px;
 }
 div.download-link {
+    width: 294px;
     height: 40px;
     background: white;
-    padding-left: 30px;
-    padding-right: 30px;
     font-size: 13px;
     letter-spacing: 1px;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-right: 15px;
+    position: absolute;
+    right: 0;
 }
 .block {
     justify-content: center;
